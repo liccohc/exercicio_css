@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color:aqua;
+    padding: 16px 0;
+}
+
+section {
+    padding: 16px 0;
+}
+
+.articles article a {
+    background-color:blueviolet;
+    color: white;
+    padding: 8px;
+    display: inline-block;
+}
+
+header li {
+    display: inline;
+}
+
+.container {
+    width: 1366px
+    margin: 0 auto;
+}
+
+#sports h2 {
+    color: green
+}
+#economy h2 {
+    color: gold
+}
+#entreteniment h2 {
+    color: red
+}
+#tecnology h2 {
+    color: blue
+}
+
+.creation-date {
+    color: silver
+}
+
+#sports {
+    background-color:rgb(195, 243, 123);
+}
+
+#economy {
+    background-color: rgb(241, 243, 94);
+}
+
+#entreteniment {
+    background-color: rgb(226, 105, 105);
+}
+
+#tecnology {
+    background-color: rgb(89, 89, 250);
+}
